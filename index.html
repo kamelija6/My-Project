@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text"  name="search" id="search" placeholder="Search">
+        <form action="#" id="forma" method="POST">
+            <label for="">Vnesi ime</label>
+            <input type="text" name="fname" id="fname" required>
+            <br>
+            <label for="">Vnesi username</label>
+            <input type="text" name="username" id="username"  required>
+            <br>
+            <input type="submit" id="addItem"></input>
+    </form>
+    </div>
+    <table class="mk">
+        <tr>
+            <th>First Name</th>
+            <th id="usersn">User name</th>
+            
+        </tr>
+        <tbody id="list"></tbody>
+    </table>
+
+    
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
